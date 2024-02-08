@@ -2,9 +2,12 @@
   "name": "client",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://sriram629.github.io/Authentication-Page-With-Reactjs-Mongodb",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run dev",
+    "deploy": "gh-pages -d dev",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"

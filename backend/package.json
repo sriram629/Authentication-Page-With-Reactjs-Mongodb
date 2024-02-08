@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://sriram629.github.io/Authentication-Page-With-Reactjs-Mongodb",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "nodemon index.js"
+    "start" : "nodemon index.js",
+    "predeploy": "npm start",
+    "deploy": "gh-pages -d start"
   },
   "keywords": [],
   "author": "Maddipati Sri Rama Krishna",
